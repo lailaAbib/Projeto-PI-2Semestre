@@ -1,0 +1,23 @@
+.tabela table {
+    width: 100%;
+}
+
+.tabela th {
+    background-color:rgba(0, 0, 255, 0.63);
+    color: #fff;
+    font-size: 18px;
+}
+
+.tabela .par {
+    background-color: rgba(13, 162, 189, 0.602); 
+}
+
+.tabela .impar {
+    background-color: rgba(148, 227, 241, 0.602); 
+}
+
+
+.tabela td {
+    font-size: 20px;
+    
+}

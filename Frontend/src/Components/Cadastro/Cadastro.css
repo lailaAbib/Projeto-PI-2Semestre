@@ -1,0 +1,74 @@
+.tela{
+    height: 100vh;
+    background: linear-gradient(
+    rgb(234,234,234) 50%, 
+    rgb(62, 150, 188) 50% );
+}
+
+.titulo {
+    padding: 10px;
+    color: white;
+    font-size: 36px;
+}
+.cadas {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 70vh;
+    margin: 90px;
+    margin-left: 370px;
+    position: absolute;
+    background-color: #3E96BC;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    border-radius: 2px; 
+}
+.number input{
+    width: 10%;
+}
+.address input{
+    width: 405px;
+    float: left;
+    margin-left: 12px;
+}
+.address-2 input{
+    width: 29%;
+    float: left;
+    margin-left: 12px;
+}
+.InputMask{
+    width: 80px;
+}
+.busca {
+    margin-right: 55px;
+    float: right;
+}
+.city {
+    margin-left: 4px;
+    float: left;
+    width: 10px;
+}
+.uf {
+    margin: 9px;
+    margin-left: 100px;
+    width: 12%;
+    height: 35px;
+}
+.checkbox input{
+    width: 2%;
+    float: left;
+    margin-left: 13px;
+}
+.checkbox label {
+    float: left;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+.cadastro {
+    height: 50px;
+    margin: 0 auto;
+    background-color: #83868E;
+    border-color: #83868E;
+}

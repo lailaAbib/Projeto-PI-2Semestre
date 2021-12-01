@@ -1,0 +1,107 @@
+.form--edit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+
+
+.row--marca,
+.row--mark-check {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin-left: 250px;
+
+}
+
+.row--marca input {
+    padding: 10px;
+    width: 450px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.row--marca label {
+    padding: 10px;
+    font-size: 22px;    
+}
+
+.row--mark-check {
+    margin-left: 320px;
+    width: 150px;  
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+}
+
+.row--marks--buttons {
+    margin-left: 350px;
+    width: 300px; 
+    height:100px; 
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;    
+}
+
+.button-save-marca, 
+.button-return-marca {
+    width: 140px;
+    height: 50px;
+}
+
+.button-save-marca:hover {
+    background-color: rgb(24, 24, 83);
+   
+}
+.button-save-marca {
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 255, 0.63);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    font-size: 22px;
+    background-color: rgba(0, 0, 255, 0.63);
+}
+
+.button-return-marca:hover {
+    background-color: rgba(209, 96, 51, 0.452);
+   
+}
+
+.button-return-marca {
+    text-decoration: none;
+    border: 1px solid rgb(209, 96, 51);
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(209, 96, 51);
+}
+
+
+.row--mark-check label {
+    margin: 5px;
+    display: flex;
+    padding: 10px;
+    font-size: 32px;
+    cursor: pointer;
+
+}
+
+.row--mark-check input {
+    margin: 5px;
+    width: 20px;
+    display: flex;
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+.Select-equip {
+    width: 450px;
+    font-size: 24px;
+}
